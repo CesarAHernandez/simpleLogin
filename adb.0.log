@@ -1,0 +1,45 @@
+--- adb starting (pid 16281) ---
+adb I 16281 16281 main.cpp:78] Android Debug Bridge version 1.0.36
+adb I 16281 16281 main.cpp:78] Revision af05c7354fe1-android
+adb I 16281 16281 main.cpp:78] 
+adb server killed by remote request
+--- adb starting (pid 16462) ---
+adb I 16462 16462 main.cpp:78] Android Debug Bridge version 1.0.36
+adb I 16462 16462 main.cpp:78] Revision af05c7354fe1-android
+adb I 16462 16462 main.cpp:78] 
+adb server killed by remote request
+--- adb starting (pid 16493) ---
+adb I 16493 16493 main.cpp:78] Android Debug Bridge version 1.0.36
+adb I 16493 16493 main.cpp:78] Revision af05c7354fe1-android
+adb I 16493 16493 main.cpp:78] 
+adb server killed by remote request
+--- adb starting (pid 16555) ---
+adb I 16555 16555 main.cpp:78] Android Debug Bridge version 1.0.36
+adb I 16555 16555 main.cpp:78] Revision af05c7354fe1-android
+adb I 16555 16555 main.cpp:78] 
+adb server killed by remote request
+--- adb starting (pid 16586) ---
+adb I 16586 16586 main.cpp:78] Android Debug Bridge version 1.0.36
+adb I 16586 16586 main.cpp:78] Revision af05c7354fe1-android
+adb I 16586 16586 main.cpp:78] 
+adb server killed by remote request
+--- adb starting (pid 16676) ---
+adb I 16676 16676 main.cpp:78] Android Debug Bridge version 1.0.36
+adb I 16676 16676 main.cpp:78] Revision af05c7354fe1-android
+adb I 16676 16676 main.cpp:78] 
+adb server killed by remote request
+--- adb starting (pid 16707) ---
+adb I 16707 16707 main.cpp:78] Android Debug Bridge version 1.0.36
+adb I 16707 16707 main.cpp:78] Revision af05c7354fe1-android
+adb I 16707 16707 main.cpp:78] 
+adb server killed by remote request
+--- adb starting (pid 17293) ---
+adb I 17293 17293 main.cpp:78] Android Debug Bridge version 1.0.36
+adb I 17293 17293 main.cpp:78] Revision af05c7354fe1-android
+adb I 17293 17293 main.cpp:78] 
+adb server killed by remote request
+--- adb starting (pid 17397) ---
+adb I 17397 17397 main.cpp:78] Android Debug Bridge version 1.0.36
+adb I 17397 17397 main.cpp:78] Revision af05c7354fe1-android
+adb I 17397 17397 main.cpp:78] 
+adb server killed by remote request
