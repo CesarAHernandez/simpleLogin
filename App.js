@@ -1,23 +1,16 @@
+/*
+Created by: Cesar Hernandez
+Date: 5/7/2018
+Description: Simple login is used to make it easier for me to develop a login for future use.
+*/
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Login from './components/Login/login';
 
 export default class App extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text>up App.js to start working on your app!</Text>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
-      </View>
+      <Login />
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

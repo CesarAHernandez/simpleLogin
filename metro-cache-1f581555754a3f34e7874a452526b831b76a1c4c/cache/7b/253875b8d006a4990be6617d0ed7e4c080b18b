@@ -17,6 +17,10 @@ __d(function (global, _require, module, exports, _dependencyMap) {
 
   var _reactNative = _require(_dependencyMap[2], "react-native");
 
+  var _login = _require(_dependencyMap[3], "./components/Login/login");
+
+  var _login2 = _interopRequireDefault(_login);
+
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
   function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -56,46 +60,12 @@ __d(function (global, _require, module, exports, _dependencyMap) {
     _createClass(App, [{
       key: "render",
       value: function render() {
-        return _react3.default.createElement(
-          _reactNative.View,
-          {
-            style: styles.container,
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 7
-            }
-          },
-          _react3.default.createElement(
-            _reactNative.Text,
-            {
-              __source: {
-                fileName: _jsxFileName,
-                lineNumber: 8
-              }
-            },
-            "up App.js to start working on your app!"
-          ),
-          _react3.default.createElement(
-            _reactNative.Text,
-            {
-              __source: {
-                fileName: _jsxFileName,
-                lineNumber: 9
-              }
-            },
-            "Changes you make will automatically reload."
-          ),
-          _react3.default.createElement(
-            _reactNative.Text,
-            {
-              __source: {
-                fileName: _jsxFileName,
-                lineNumber: 10
-              }
-            },
-            "Shake your phone to open the developer menu."
-          )
-        );
+        return _react3.default.createElement(_login2.default, {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 13
+          }
+        });
       }
     }]);
 
@@ -103,13 +73,4 @@ __d(function (global, _require, module, exports, _dependencyMap) {
   }(_react3.default.Component));
 
   exports.default = App;
-
-  var styles = _reactNative.StyleSheet.create({
-    container: {
-      flex: 1,
-      backgroundColor: '#fff',
-      alignItems: 'center',
-      justifyContent: 'center'
-    }
-  });
 });
