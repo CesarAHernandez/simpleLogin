@@ -58,3 +58,18 @@ adb I 21975 21975 main.cpp:78] Android Debug Bridge version 1.0.36
 adb I 21975 21975 main.cpp:78] Revision af05c7354fe1-android
 adb I 21975 21975 main.cpp:78] 
 adb server killed by remote request
+--- adb starting (pid 24851) ---
+adb I 24851 24851 main.cpp:78] Android Debug Bridge version 1.0.36
+adb I 24851 24851 main.cpp:78] Revision af05c7354fe1-android
+adb I 24851 24851 main.cpp:78] 
+adb server killed by remote request
+--- adb starting (pid 25067) ---
+adb I 25067 25067 main.cpp:78] Android Debug Bridge version 1.0.36
+adb I 25067 25067 main.cpp:78] Revision af05c7354fe1-android
+adb I 25067 25067 main.cpp:78] 
+adb server killed by remote request
+--- adb starting (pid 25218) ---
+adb I 25218 25218 main.cpp:78] Android Debug Bridge version 1.0.36
+adb I 25218 25218 main.cpp:78] Revision af05c7354fe1-android
+adb I 25218 25218 main.cpp:78] 
+adb server killed by remote request

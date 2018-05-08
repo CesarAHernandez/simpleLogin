@@ -1,5 +1,6 @@
 import React ,{ Component } from 'react';
 import { StyleSheet, Text, View, Image} from 'react-native';
+import LoginForm from './loginForm';
 
 export default class Login extends Component {
   render() {
@@ -9,8 +10,12 @@ export default class Login extends Component {
                 <Image 
                 style={styles.logo}
                 source= {require ('../../src/images/Octocat.png')}/>
+                <Text style={styles.logoText}>This is a github logo with React-Native</Text>
             </View>
             <View style={styles.formContainer}>
+            </View>
+            <View style={styles.formContainer}>
+                <LoginForm />
             </View>
         
         </View>
@@ -31,5 +36,10 @@ const styles = StyleSheet.create({
   logo:{
       width: 100,
       height: 100,
+  },
+  logoText:{
+      color: '#fff',
+      width: 170,
+      marginTop: 10,
   }
 });

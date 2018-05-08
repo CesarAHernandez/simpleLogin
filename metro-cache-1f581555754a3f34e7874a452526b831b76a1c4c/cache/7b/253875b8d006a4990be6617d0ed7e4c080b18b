@@ -48,8 +48,8 @@ __d(function (global, _require, module, exports, _dependencyMap) {
     };
   }
 
-  var App = _wrapComponent("App")(function (_React$Component) {
-    _inherits(App, _React$Component);
+  var App = _wrapComponent("App")(function (_Component) {
+    _inherits(App, _Component);
 
     function App() {
       _classCallCheck(this, App);
@@ -70,7 +70,7 @@ __d(function (global, _require, module, exports, _dependencyMap) {
     }]);
 
     return App;
-  }(_react3.default.Component));
+  }(_react2.Component));
 
   exports.default = App;
 });
