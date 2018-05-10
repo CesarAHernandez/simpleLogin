@@ -11,10 +11,13 @@
 .env.development.local
 .env.test.local
 .env.production.local
+adb.0.log
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
 #metro cache
+*metro*
+*haste*
 /metro-cache-1f581555754a3f34e7874a452526b831b76a1c4c

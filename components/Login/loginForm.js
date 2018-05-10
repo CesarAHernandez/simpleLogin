@@ -4,21 +4,38 @@ import {
     Text, 
     View, 
     TextInput,
-    TouchableOpacity } from 'react-native';
+    TouchableOpacity,
+    StatusBar } from 'react-native';
 
 export default class App extends Component {
   render() {
     return (
         <View style={styles.container}>
+            <StatusBar 
+            barStyle="light-content"
+            />
+
             <TextInput  
             placeholder = "User Name"
             placeholderTextColor="rgba(255,255,255,.9)"
+            returnKeyType = 'next'
+            onSubmitEditing = {() => this.passwordInput.focus()}
+            keyboardType = 'email-address'
+            autoCorrect = {false}
+            autoCapitalize = 'none'
             style={styles.input}/>
+
             <TextInput  
             placeholder = "Password"
             placeholderTextColor="rgba(255,255,255,.9)"
-            style={styles.input}/>
+            returnKeyType = 'go'
+            secureTextEntry
+            style={styles.input}
+            ref={(input) => this.passwordInput = input}/>
 
+            <TouchableOpacity style={styles.buttonContainer}>
+                <Text style={styles.buttonText}>LOGIN</Text>
+            </TouchableOpacity>
             
         </View>
 
@@ -36,6 +53,15 @@ const styles = StyleSheet.create({
        marginBottom: 20,
        color: '#fff',
        paddingHorizontal: 10,
+   },
+   buttonContainer:{
+       backgroundColor: '#2980b9',
+       paddingVertical: 15,
+   },
+   buttonText:{
+       textAlign: 'center',
+       color: '#ffffff',
+       fontWeight: '700',
    }
 
 });
